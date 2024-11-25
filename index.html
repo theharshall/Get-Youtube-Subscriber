@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Subscribers Fetch</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #444;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: #ff0000;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+      color: #bbb;
+    }
+    .api-info {
+      margin: 20px 0;
+      padding: 20px;
+      background-color: #555;
+      border-radius: 10px;
+    }
+    .api-info h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #ff4500;
+    }
+    .api-info ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .api-info ul li {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #666;
+      border-radius: 5px;
+    }
+    .note {
+      font-size: 14px;
+      color: #ff9800;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the YouTube Subscribers Fetch Homepage</h1>
+    <p>The API provided by this application contains the URL as follows below:</p>
+    <div class="api-info">
+      <h3>Base URL: <span style="color: rgb(229, 229, 235);">http://localhost:3000</span></h3>
+      <ul>
+        <li><strong>GET /subscribers:</strong> Returns an array of subscribers present in the database.</li>
+        <li><strong>GET /subscribers/names:</strong> Returns an array of subscribers with only two fields (name & subscribedChannel).</li>
+        <li><strong>GET /subscribers/:id:</strong> Returns the details of a subscriber with the given ID.</li>
+        <li>
+          If "id" in <strong>/subscribers/:id</strong> is not found in the database, it returns an error message with a status code of 400.
+        </li>
+      </ul>
+    </div>
+    <div class="note">
+      ** Kindly note **<br>
+      Base URL only works if running this application with the local directory. Once deployed over the cloud, the Base URL will be changed, but the relative URL of the API remains the same.
+    </div>
+  </div>
+</body>
+</html>
