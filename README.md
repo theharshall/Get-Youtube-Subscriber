@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Get YouTube Subscriber
 
 A Node.js-based backend project for managing YouTube subscriber data. This project demonstrates a REST API that allows users to interact with a MongoDB database to perform CRUD (Create, Read, Update, Delete) operations.
@@ -42,3 +43,6 @@ GET-YOUTUBE-SUBSCRIBER/
 ├── package.json            
 ├── package-lock.json        
 └── README.md
+=======
+# Get-Youtube-Subscriber
+>>>>>>> ae65345bbcce41495a9bcb75b11d5396eb819e91
