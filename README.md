@@ -12,9 +12,7 @@ Retrieve subscriber information for a specific user using their ID.
 1. Clone the repository:
 
 ```bash
-
-git clone https://github.com/theharshall/get-youtube-subscriber.git
-
+https://github.com/theharshall/Get-Youtube-Subscriber.git
 ```
 2. Navigate to the project directory:
 
