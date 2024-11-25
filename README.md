@@ -9,20 +9,8 @@ Get subscriber names along with their respective channels.
 Retrieve subscriber information for a specific user using their ID.
 
 ## Installation
-1. Clone the repository:
 
-```bash
-https://github.com/theharshall/Get-Youtube-Subscriber.git
-```
-2. Navigate to the project directory:
-
-```bash
-
-cd get-youtube-subscriber
-
-```
-
-3. Install dependencies:
+1. Install dependencies:
 
 ```bash
 
