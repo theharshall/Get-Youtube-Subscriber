@@ -22,8 +22,7 @@ db.once('open', () => console.log('Connected to database'));
 
 // Root endpoint
 app.get('/', (req, res) => {
-  res.send('Hello World!!');
-  console.log('Root endpoint hit');
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Get all subscribers
